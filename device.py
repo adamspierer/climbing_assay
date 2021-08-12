@@ -133,12 +133,13 @@ class climbing_rig:
         genotype = []
         for n in self.nuc:
             for m in self.mito:
-                genotype.append(m + '_' + n)
+            	for s in self.sex:
+	                genotype.append(m + '_' + n + '_' + s)
         for _extra in self.extra_genotypes:
             genotype.append(_extra)
         for _delete in self.delete_genotypes:
             genotype.remove(_delete)
-        print('Evaluating the following genotypes:', genotype)
+        print('Evaluating the following genotype x sex combinations:', genotype)
         return(genotype)
 
     ## Calculates the mean of n-subsequent light sensor readings
