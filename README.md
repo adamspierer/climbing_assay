@@ -33,7 +33,7 @@ Ideally, the user would have the same number of vials for each of the treatments
 ### Turning on the Pi and lightboard:
 Make sure the Raspberry Pi is turned on. Since there is no power button, plug the power cord into the Pi. If it is plugged in but no power, then unplug and replug and it should start up within a few seconds. The boot time is about 20-60 seconds.
 
-<img src="https://github.com/adamspierer/climbing_assay/blob/main/images/RPi_fromTop.png" width="300" height="400" align="center">
+<img src="https://github.com/adamspierer/climbing_assay/blob/main/images/RPi_fromTop.png" width="400" height="300" align="center">
 
 To turn on the light board, press the icon at the corner of the board shared by the origin of the two rulers. The brightness is important, and if done incorrectly, it can result in a "wagonwheel effect" where alternating dark and light bands move up the video. FreeClimber can still work with banded videos, but the detector works better without the banding. To get the brightness adjusted correctly, navigate to the directory containing `preview.py` and type:
 
