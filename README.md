@@ -128,6 +128,6 @@ The results files from all batches can be concatenated together by running:
 
 If there is an error with the hardware, the circuit diagram is provided here:
 
-<img src="https://github.com/adamspierer/climbing_assay/blob/main/images/wiring_comparison.png" width="400" height="312" align="center">
+<img src="https://github.com/adamspierer/climbing_assay/blob/main/images/wiring_comparison.png" width="600" height="468" align="center">
 
 On the left is the circuit diagram, the center is a PCB board with the electronics soldered on to ensure a strong connection, and the right is a breadboard with the components and wires hooked up to a Raspberry Pi Cobbler to help organize the pins. The PCB board version has the individual wires labeled with the pin number and what it corresponds with. The table below corresponds with the pin number and name, the function and how it is wired on the circuit board.
