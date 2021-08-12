@@ -23,7 +23,7 @@ The climbing assay is broken into three scripts. The main script `climbing_assay
 
 ## Preparing for the assay:
 
-###Putting flies in the climbing rig:
+### Putting flies in the climbing rig:
 Users will need to transfer the flies from the vials with food, to an empty, clean, and clear glass vial. Vials are inserted with the flug up into the holes in the climbing rig. Make sure to have the vials in the same order if assaying vials multiple times over experimental days. Also take care to ensure that the bottom of the flug matches up with the bottom of the plastic on the top bracket of the climbing rig (so no flies can hide from the camera).
 
 <img src="https://github.com/adamspierer/climbing_assay/blob/main/images/flug_position.png" width="285" height="400" align="center">
