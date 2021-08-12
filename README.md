@@ -26,14 +26,14 @@ The climbing assay is broken into three scripts. The main script `climbing_assay
 ###Putting flies in the climbing rig:
 Users will need to transfer the flies from the vials with food, to an empty, clean, and clear glass vial. Vials are inserted with the flug up into the holes in the climbing rig. Make sure to have the vials in the same order if assaying vials multiple times over experimental days. Also take care to ensure that the bottom of the flug matches up with the bottom of the plastic on the top bracket of the climbing rig (so no flies can hide from the camera).
 
-<img src="https://github.com/adamspierer/climbing_assay/blob/main/images/flug_position.png" width="600" height="200" align="center">
+<img src="https://github.com/adamspierer/climbing_assay/blob/main/images/flug_position.png" align="center">
 
 Ideally, the user would have the same number of vials for each of the treatments/conditions/genotypes that are being tested. This is important because FreeClimber (analysis program downstream of this) operates under the assumption that there is a consistent number of vials. This can be worked around if necessary by analyzing the videos with different vial numbers with a separate configuration file (change variable for number of vials), but is easier to fix at this stage.
 
 ### Turning on the Pi and lightboard:
 Make sure the Raspberry Pi is turned on. Since there is no power button, plug the power cord into the Pi. If it is plugged in but no power, then unplug and replug and it should start up within a few seconds. The boot time is about 20-60 seconds.
 
-<img src="https://github.com/adamspierer/climbing_assay/blob/main/images/RPi_fromTop.png" width="600" height="200" align="center">
+<img src="https://github.com/adamspierer/climbing_assay/blob/main/images/RPi_fromTop.png" align="center">
 
 To turn on the light board, press the icon at the corner of the board shared by the origin of the two rulers. The brightness is important, and if done incorrectly, it can result in a "wagonwheel effect" where alternating dark and light bands move up the video. FreeClimber can still work with banded videos, but the detector works better without the banding. To get the brightness adjusted correctly, navigate to the directory containing `preview.py` and type:
 
